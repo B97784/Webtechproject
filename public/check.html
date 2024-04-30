@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .login-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #6495ED; /* Darker shade of blue */
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+
+    }
+  </style>
+</head>
+<body>
+  <!-- Add a button to redirect to the login/signup page -->
+  <button class="login-btn" onclick="redirectToLoginSignup()">Login/Signup</button>
+
+  <script>
+   function redirectToLoginSignup() {
+  window.location.href = 'loginindex.html';
+}
+  </script>
+</body>
+</html>

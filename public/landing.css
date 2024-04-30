@@ -1,0 +1,143 @@
+:root {
+
+    /**
+     * colors
+     */
+  
+    --united-nations-blue: hsl(214, 56%, 58%);
+    --bright-navy-blue: hsl(214, 57%, 51%);
+    --spanish-gray: hsl(0, 0%, 60%);
+    --black-coral: hsl(225, 8%, 42%);
+    --oxford-blue: hsl(208, 97%, 12%);
+    --yale-blue: hsl(214, 72%, 33%);
+    --blue-ncs: hsl(197, 100%, 36%);
+    --gunmetal: hsl(206, 34%, 20%);
+    --gainsboro: hsl(0, 0%, 88%);
+    --cultured: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --onyx: hsl(0, 0%, 25%);
+    --jet: hsl(0, 0%, 20%);
+  
+    /**
+     * typography
+     */
+  
+    --ff-poppins: "Poppins", sans-serif;
+    --ff-montserrat: "Montserrat", sans-serif;
+  
+    --fs-1: calc(20px + 3.5vw);
+    --fs-2: calc(18px + 1.6vw);
+    --fs-3: calc(16px + 0.45vw);
+    --fs-4: 15px;
+    --fs-5: 14px;
+    --fs-6: 13px;
+    --fs-7: 12px;
+    --fs-8: 11px;
+  
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+  
+    /**
+     * transition
+     */
+  
+    --transition: 0.25s ease-in-out;
+  
+    /**
+     * spacing
+     */
+  
+    --section-padding: 60px;
+  
+    /**
+     * border-radius
+     */
+  
+    --radius-15: 15px;
+    --radius-25: 25px;
+  
+  }body{
+    margin: 100px;
+}
+.Exp-Header h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    margin-left: 100px;
+    font-size: 50px;
+    position: relative;
+}
+
+hr {
+    height: 2px !important;
+    background-color: goldenrod; /* Choose a color for the horizontal rule */
+    margin-top: -40px; /* Add margin above and below the horizontal rule */
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    position: relative;
+
+}
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    margin-left: 100px;
+    font-size: 35px;
+    position: relative;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 100px;
+    font-size: 25px;
+    position: relative;
+    margin-right: 100px;
+}
+.picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.picture-container img {
+    width: 290px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.site-footer {
+    background: var(--oxford-blue);
+    padding-block: var(--section-padding);
+    color: var(--gainsboro);
+    border-radius: 25px;/* Align the footer to the left of the screen */
+    margin-top: 100px;
+}
+
+
+.site-footer h3 {
+    font-size: small;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.site-footer p {
+    font-size: small;
+
+    color: #ccc;
+}
+
+.site-footer hr {
+    border-top: 1px solid #666;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.site-footer p.text-center {
+    margin-bottom: 0;
+}
